@@ -39,9 +39,9 @@ skills:
   - group: Programming
     items: [Python, SQL, R, VBA, HTML, CSS, JavaScript]
   - group: Tools & Platforms
-    items: [Excel, Tableau, n8n, GitHub, Unity, Typst, Postman]
+    items: [Excel, n8n, Zapier, Git, GitHub, Tableau, Unity, Typst, Postman API]
   - group: Professional
-    items: [Workflow Automation, Data Modeling, AI Prompt Engineering]
+    items: [Workflow Automation, Business Process Improvement, Data Modeling, Debugging, SOP Documentation]
 
 experience:
   - title: "Research Assistant — Dr. James Gaskin"
@@ -50,7 +50,7 @@ experience:
     full_only: false
     bullets:
       - "Leading end-to-end development of an augmented reality space application built in Unity."
-      - "Evaluated and benchmarked alternative AR tools to standardize the team's development pipeline on Unity."
+      - "Evaluated and benchmarked alternative AR tools to standardize the development pipeline on Unity."
       - "Collaborate on cross-project reviews to optimize a faculty-developed statistical platform."
 
   - title: "Teaching Assistant — Introduction to Information Systems"
@@ -72,7 +72,7 @@ experience:
       - "Act as an on-call responder for immediate resident needs, maintenance, and emergencies."
       - "Coordinate resource distribution and logistics for neighborhood events and initiatives."
 
-  - title: "Data Migration & Automation Specialist"
+  - title: "Automation Specialist"
     date: "Nov 2025 – Feb 2026"
     org: "Empowered Cooks — Remote"
     full_only: false
