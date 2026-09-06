@@ -41,7 +41,7 @@ skills:
   - group: Tools & Platforms
     items: [Excel, n8n, Zapier, Git, GitHub, Tableau, Unity, Typst, Postman API]
   - group: Professional
-    items: [Workflow Automation, Business Process Improvement, Data Modeling, Debugging, SOP Documentation]
+    items: [Workflow Automation, Business Process Improvement, Data Modeling, SOP Documentation]
 
 experience:
   - title: "Research Assistant — Dr. James Gaskin"
