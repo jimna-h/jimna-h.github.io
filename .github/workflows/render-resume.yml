@@ -1,0 +1,41 @@
+name: Render resume PDFs
+
+# Re-renders both résumé PDFs from resume.typ + _data/resume.yml whenever
+# either changes, and commits the updated PDFs to assets/. That commit is
+# a normal push to main, so GitHub Pages rebuilds the site right after.
+#
+# You can also trigger this manually from the Actions tab (workflow_dispatch)
+# any time you just want to force a re-render.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "_data/resume.yml"
+      - "resume.typ"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Typst
+        uses: typst-community/setup-typst@v5
+
+      - name: Render one-page résumé
+        run: typst compile resume.typ assets/James-Bruce-Resume.pdf --input mode=short
+
+      - name: Render full-history résumé
+        run: typst compile resume.typ assets/James-Bruce-Resume-Full.pdf --input mode=full
+
+      - name: Commit rendered PDFs
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: re-render résumé PDFs from resume.yml"
+          file_pattern: "assets/James-Bruce-Resume.pdf assets/James-Bruce-Resume-Full.pdf"
