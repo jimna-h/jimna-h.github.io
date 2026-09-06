@@ -1,6 +1,20 @@
-# Your résumé content. Edit here to update the Resume page.
+# Your résumé content. Edit here to update the Resume page AND both PDFs
+# (resume.typ reads this same file — see .github/workflows/render-resume.yml).
 # For experience entries, set  full_only: true  to hide a role in the
 # default one-page view (it only shows under "Full history").
+#
+# NOTE: bullets are plain strings rendered as escaped text on the website,
+# so avoid markdown/formatting syntax here — it will show up literally
+# both on the page and in the PDFs.
+
+contact:
+  name: "James Bruce"
+  phone: "(208) 371-2926"
+  email: "jbruce0226@gmail.com"
+  linkedin_display: "linkedin.com/in/james-w-bruce"
+  linkedin_url: "https://www.linkedin.com/in/james-w-bruce"
+  site_display: "jimna-h.github.io/home"
+  site_url: "https://jimna-h.github.io/home"
 
 education:
   - degree: "B.S. in Statistics: Data Science"
