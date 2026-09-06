@@ -77,9 +77,9 @@ experience:
     org: "Empowered Cooks — Remote"
     full_only: false
     bullets:
-      - "Architected automated n8n workflows to integrate Shopify, Customer.io, and Membership.io."
-      - "Leveraged n8n to diagnose, debug, and reconstruct a failing, business-critical automated workflow that had stalled under legacy development."
-      - "Audited and optimized legacy Zapier automations to eliminate bugs and streamline integrations."
+      - "Built automated n8n workflows integrating Shopify, Customer.io, and Membership.io, leveraging Postman API."
+      - "Diagnosed, debugged, and rebuilt a failing business-critical automated workflow that had stalled under legacy development."
+      - "Audited and optimized outdated Zapier automations to resolve bugs and keep the data pipeline running."
 
   - title: "Records & Information Management Assistant"
     date: "Jul 2024 – Jan 2026"
