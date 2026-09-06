@@ -44,7 +44,7 @@
 #let entry(item) = {
   if full or not item.at("full_only", default: false) {
     let heading-text = item.at("title", default: item.at("degree", default: ""))
-    block(above: 1em, below: 0.4em, breakable: false)[
+    block(above: 1em, below: 0.4em, breakable: true)[
       #text(size: 10.5pt)[
         *#heading-text* #h(1fr) _ #item.date _ \
         #item.org
