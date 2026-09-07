@@ -21,7 +21,13 @@ description: "Projects by James Bruce — automation, scripting, and data tools.
     <div class="row gx-4 gx-lg-5 justify-content-center">
         <div class="col-md-10 col-lg-9 col-xl-8">
 
-            {% comment %} Cards are generated from _data/projects.yml. {% endcomment %}
+            {% comment %}
+              Cards are generated from _data/projects.yml.
+              A project with a `url` is clickable and gets a title link + optional "Source" button.
+              A project with NO `url` (e.g. a write-up describing work you can't share code/links for)
+              renders as a plain, non-linked card instead — set `note` to something like
+              "Built for [Company] — code is proprietary" to explain why there's no link.
+            {% endcomment %}
             {% for project in site.data.projects %}
             <div class="project-card">
                 {% if project.image %}
@@ -30,12 +36,21 @@ description: "Projects by James Bruce — automation, scripting, and data tools.
                 </div>
                 {% endif %}
                 <div class="project-body">
+                    {% if project.url %}
                     <h3><a class="stretched-link" href="{{ project.url }}" target="_blank" rel="noopener">{{ project.name }}</a></h3>
+                    {% else %}
+                    <h3>{{ project.name }}</h3>
+                    {% endif %}
                     <p class="project-meta">{{ project.meta }}</p>
                     <p>{{ project.description }}</p>
+                    {% if project.note %}
+                    <p class="project-note"><em>{{ project.note }}</em></p>
+                    {% endif %}
+                    {% if project.source %}
                     <p class="project-links">
                         <a href="{{ project.source }}" target="_blank" rel="noopener">Source <i class="fab fa-github"></i></a>
                     </p>
+                    {% endif %}
                 </div>
             </div>
             {% endfor %}
