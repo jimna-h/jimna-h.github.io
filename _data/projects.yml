@@ -14,8 +14,9 @@
   description: >-
     A life-total and stats tracker for Commander games: live life totals,
     commander damage per opponent, turn tracking, and a shared player/deck
-    roster synced to Google Sheets.
-  url: https://jimna-h.github.io/edh-tracker/
+    roster synced to Google Sheets. (This link will show a live roster of
+    players, decks, and stats, but any submitted game will not take real affect.)
+  url: https://edh-tracker-seven.vercel.app/
   source: https://github.com/jimna-h/edh-tracker
   image: assets/img/edh-tracker.jpg
  
