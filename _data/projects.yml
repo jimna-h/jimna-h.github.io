@@ -9,6 +9,35 @@
 #               out the line to show a text-only card. A ~16:10 crop looks best.
 # Order here = order on the page.
 
+- name: EDH Game and Stats Tracker
+  meta: "React · Flask · Google Sheets · Render"
+  description: >-
+    A life-total and stats tracker for Commander games: live life totals,
+    commander damage per opponent, turn tracking, and a shared player/deck
+    roster synced to Google Sheets.
+  url: https://jimna-h.github.io/edh-tracker/
+  source: https://github.com/jimna-h/edh-tracker
+  image: assets/img/edh-tracker.jpg
+ 
+- name: Barcode Scanning for Records Intake/Movement
+  meta: "Process Improvement · Records Management"
+  description: >-
+    Noticed that record intake at BYU's Office of IT relied on manual
+    lookups prone to transcription errors. Introduced a barcode scanning
+    tool and built the data-formatting pipeline to feed scanned entries
+    directly into the existing records system, eliminating manual tracking
+    errors at intake.
+  note: "Built for BYU Office of IT — code is internal and can't be shared publicly."
+ 
+- name: Records Data-Matching Automation
+  meta: "VBA · Excel · Automation"
+  description: >-
+    Built a script that cross-references monthly HR job-change reports
+    against a database of 300+ active record liaisons, automatically
+    flagging accounts that need updating. Replaced a manual review process
+    that previously required checking each report by hand.
+  note: "Built for BYU Office of IT — code is internal and can't be shared publicly."
+ 
 - name: tweave
   meta: "R package · cross-platform CLI · Typst"
   description: >-
@@ -19,7 +48,27 @@
     a few personal preference stats math shorthands.
   url: https://github.com/jimna-h/tweave
   source: https://github.com/jimna-h/tweave
-
+ 
+- name: Landmark AR Viewer
+  meta: "Unity · C# · Augmented Reality"
+  description: >-
+    A mobile augmented reality application for viewing and interacting with
+    famous global landmarks. Leading end-to-end development for a BYU
+    Information Systems professor. Working towards voice controls and
+    porting to a Nebula application for use with XREAL AR glasses.
+  note: "In progress — research project, not yet public."
+ 
+- name: Manufactor
+  meta: "Rules-engine modeling · offline-first PWA"
+  description: >-
+    An installable, offline-capable token counter for artifact-token-heavy Magic:
+    The Gathering decks. Models the game's stacking replacement effects as an ordered
+    pipeline: additive token increasers, sequential Academy Manufactor passes, then
+    multiplicative token increasers, with per-deck profiles that persist between games.
+  url: https://jimna-h.github.io/manufactor/
+  source: https://github.com/jimna-h/manufactor
+  image: assets/img/manufactor.jpg
+ 
 - name: EDHREC Hipster Quotient
   meta: "Live data extraction · vanilla JS"
   description: >-
@@ -31,18 +80,7 @@
   url: https://jimna-h.github.io/edhrec-hipster-quotient/
   source: https://github.com/jimna-h/edhrec-hipster-quotient
   image: assets/img/edhrec-hipster.jpg
-
-- name: Manufactor
-  meta: "Rules-engine modeling · offline-first PWA"
-  description: >-
-    An installable, offline-capable token counter for artifact-token-heavy Magic:
-    The Gathering decks. Models the game's stacking replacement effects as an ordered
-    pipeline: additive token increasers, sequential Academy Manufactor passes, then
-    multiplicitive token increasers, with per-deck profiles that persist between games.
-  url: https://jimna-h.github.io/manufactor/
-  source: https://github.com/jimna-h/manufactor
-  image: assets/img/manufactor.jpg
-
+ 
 - name: Prowess
   meta: "Magic: The Gathering · web app"
   description: >-
@@ -51,7 +89,7 @@
     creatures in real time, so you don't have to.
   url: https://jimna-h.github.io/prowess/
   source: https://github.com/jimna-h/prowess
-
+ 
 - name: Duckbill Cap Helmets
   meta: "Minecraft · resource pack · data pack"
   description: >-
