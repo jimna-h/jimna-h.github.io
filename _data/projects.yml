@@ -32,10 +32,10 @@
 - name: Records Data-Matching Automation
   meta: "VBA · Excel · Automation"
   description: >-
-    Built a script that cross-references monthly HR job-change reports
-    against a database of 300+ active record liaisons, automatically
-    flagging accounts that need updating. Replaced a manual review process
+    Built a script that cut down a a manual review process
     that previously required checking each report by hand.
+    The previous process would generally take a full week
+    of work, and now takes only 20 minutes at most.
   note: "Built for BYU Office of IT — code is internal and can't be shared publicly."
  
 - name: tweave
