@@ -403,6 +403,12 @@ main { padding: 3rem 0 3.5rem; }
 }
 .project-card .project-links a:hover { color: var(--accent-dark); text-decoration: underline; }
 
+.project-card .project-note {
+  margin-top: 0.7rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
 /* --- Contact page ------------------------------------------------------------------ */
 .contact-grid {
   display: grid;
