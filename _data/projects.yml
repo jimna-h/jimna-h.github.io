@@ -81,15 +81,6 @@
   source: https://github.com/jimna-h/edhrec-hipster-quotient
   image: assets/img/edhrec-hipster.jpg
  
-- name: Prowess
-  meta: "Magic: The Gathering · web app"
-  description: >-
-    A per-turn tracker for prowess and storm decks. Log each spell as you cast
-    it and the app derives the storm count and buff totals across your
-    creatures in real time, so you don't have to.
-  url: https://jimna-h.github.io/prowess/
-  source: https://github.com/jimna-h/prowess
- 
 - name: Duckbill Cap Helmets
   meta: "Minecraft · resource pack · data pack"
   description: >-
@@ -97,3 +88,4 @@
     Irish duckbill cap when renamed to "duckbill". Some projects are purely for fun.
   url: https://github.com/jimna-h/duckbill_cap_helmets
   source: https://github.com/jimna-h/duckbill_cap_helmets
+  image: assets/img/duckbill-cap.png
