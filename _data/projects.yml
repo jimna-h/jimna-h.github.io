@@ -22,17 +22,18 @@
 - name: Barcode Scanning for Records Intake/Movement
   meta: "Process Improvement · Records Management"
   description: >-
-    Noticed that record intake at BYU's Office of IT relied on manual
-    lookups prone to transcription errors. Introduced a barcode scanning
-    tool and built the data-formatting pipeline to feed scanned entries
-    directly into the existing records system, eliminating manual tracking
-    errors at intake.
+Physical records tracking at BYU relied on manual lookups prone to
+transcription errors — a meaningful risk at a scale of 10,000+ record
+boxes, with hundreds moving each week. Introduced a barcode scanning
+tool and built the Excel-based data-formatting pipeline to feed scanned
+entries directly into the existing records system, cutting transcription
+errors at intake and movement to near zero.
   note: "Built for BYU Office of IT — code is internal and can't be shared publicly."
  
 - name: Records Data-Matching Automation
   meta: "VBA · Excel · Automation"
   description: >-
-    Built a script that cut down a a manual review process
+    Built a script that cut down a manual review process
     that previously required checking each report by hand.
     The previous process would generally take a full week
     of work, and now takes only 20 minutes at most.
