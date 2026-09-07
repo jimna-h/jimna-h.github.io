@@ -8,7 +8,7 @@ description: >-
   James Bruce — Statistics and Data Science student at BYU with minors in
   Computer Science and Information Systems. Résumé, projects, and contact.
 
-# This site lives at https://jimna-h.github.io/home, so the base path is /home.
+# This site lives at https://jimna-h.github.io.
 url: "https://jimna-h.github.io"
 baseurl: ""
 
