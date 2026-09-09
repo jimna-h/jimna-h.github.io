@@ -18,7 +18,7 @@ contact:
 
 education:
   - degree: "B.S. in Statistics: Data Science"
-    date: "Anticipated April 2027"
+    date: "Apr 2027"
     org: "Brigham Young University — Provo, UT"
     bullets:
       - "Minors in Information Systems & Computer Science"
@@ -49,82 +49,82 @@ experience:
     org: "Brigham Young University Marriott School of Business — Provo, UT"
     full_only: false
     bullets:
-      - "Leading end-to-end development of an augmented reality space application built in Unity."
-      - "Evaluated and benchmarked alternative AR tools to standardize the development pipeline on Unity."
-      - "Collaborate on cross-project reviews to optimize a faculty-developed statistical platform."
+      - "Leading end-to-end development of an augmented reality space application built in Unity"
+      - "Evaluated and benchmarked alternative AR tools to standardize the development pipeline on Unity"
+      - "Collaborate on cross-project reviews to optimize a faculty-developed statistical platform"
 
   - title: "Teaching Assistant — Introduction to Information Systems"
     date: "Jan 2026 – Present"
     org: "Brigham Young University Marriott School of Business — Provo, UT"
     full_only: false
     bullets:
-      - "Provide technical mentorship and debugging support in SQL, VBA, HTML/CSS, and statistics."
-      - "Facilitate hands-on labs covering ERDs, flow charts, Tableau, and Excel Solver."
-      - "Collaborate with faculty to audit, review, and refine course curriculum and materials."
-      - "Design and deliver exam-review presentations that break down complex topics."
+      - "Provide technical mentorship and debugging support in SQL, VBA, HTML/CSS, and statistics"
+      - "Facilitate hands-on labs covering ERDs, flow charts, Tableau, and Excel Solver"
+      - "Collaborate with faculty to audit, review, and refine course curriculum and materials"
+      - "Design and deliver exam-review presentations that break down complex topics"
 
   - title: "Community Aid"
     date: "Aug 2025 – Present"
     org: "Brigham Young University Student Family Housing — Provo, UT"
     full_only: true
     bullets:
-      - "Provide operational support and policy compliance for two multi-family housing complexes."
-      - "Act as an on-call responder for immediate resident needs, maintenance, and emergencies."
-      - "Coordinate resource distribution and logistics for neighborhood events and initiatives."
+      - "Provide operational support and policy compliance for two multi-family housing complexes"
+      - "Act as an on-call responder for immediate resident needs, maintenance, and emergencies"
+      - "Coordinate resource distribution and logistics for neighborhood events and initiatives"
 
   - title: "Automation Specialist"
     date: "Nov 2025 – Feb 2026"
     org: "Empowered Cooks — Remote"
     full_only: false
     bullets:
-      - "Built automated n8n workflows integrating Shopify, Customer.io, and Membership.io, leveraging Postman API."
-      - "Diagnosed, debugged, and rebuilt a failing business-critical automated workflow that had stalled under legacy development."
-      - "Audited and optimized outdated Zapier automations to resolve bugs and keep the data pipeline running."
+      - "Built automated n8n workflows integrating Shopify, Customer.io, and Membership.io, leveraging Postman API"
+      - "Diagnosed, debugged, and rebuilt a failing business-critical automated workflow that had stalled under legacy development"
+      - "Audited and optimized outdated Zapier automations to resolve bugs and keep the data pipeline running"
 
   - title: "Records & Information Management Assistant"
     date: "Jul 2024 – Jan 2026"
     org: "BYU Office of Information Technology — Provo, UT"
     full_only: false
     bullets:
-      - "Provided technical and operational support to a network of 300+ campus record liaisons."
-      - "Developed an Excel VBA macro that cut a quarterly, week-long data-gathering and formatting process down to ~20 minutes."
-      - "Adopted a barcode scanning tool and engineered the data-formatting pipeline to integrate it with existing records systems, eliminating manual tracking errors."
-      - "Programmed a data-matching script cross-referencing monthly HR job-change reports against active liaisons, automating system update flags."
-      - "Authored SOPs and knowledge-base documentation to standardize record-handling processes."
-      - "Ran regular statistical analyses on records activity to forecast infrastructure needs."
-      - "Designed and delivered training materials for full-time inter-departmental staff."
+      - "Provided technical and operational support to a network of 300+ campus record liaisons"
+      - "Developed an Excel VBA macro that cut a quarterly, week-long data-gathering and formatting process down to ~20 minutes"
+      - "Adopted a barcode scanning tool and engineered the data-formatting pipeline to integrate it with existing records systems, eliminating manual tracking errors"
+      - "Programmed a data-matching script cross-referencing monthly HR job-change reports against active liaisons, automating system update flags"
+      - "Authored SOPs and knowledge-base documentation to standardize record-handling processes"
+      - "Ran regular statistical analyses on records activity to forecast infrastructure needs"
+      - "Designed and delivered training materials for full-time inter-departmental staff"
 
   - title: "Community Support Worker"
     date: "Jun 2023 – Aug 2023"
     org: "Craig Spjute — Boise, ID"
     full_only: true
     bullets:
-      - "Supported daily living, social growth, and life-skills training for a client with special needs."
+      - "Supported daily living, social growth, and life-skills training for a client with special needs"
 
   - title: "Delivery Driver"
     date: "Sep 2022 – Jul 2024"
     org: "UberEATS & DoorDash — Boise, ID & Provo, UT"
     full_only: true
     bullets:
-      - "Sustained a 100% customer satisfaction rating through proactive communication."
+      - "Sustained a 100% customer satisfaction rating through proactive communication"
 
   - title: "Full-Time Volunteer Representative"
     date: "Sep 2020 – Sep 2022"
     org: "The Church of Jesus Christ of Latter-day Saints — Mesa, AZ & Scotland / Ireland"
     full_only: true
     bullets:
-      - "Coordinated and led instruction sessions and prepared weekly progress reports."
+      - "Coordinated and led instruction sessions and prepared weekly progress reports"
 
   - title: "Host & Busser"
     date: "Dec 2018 – Jun 2020"
     org: "Olive Garden Italian Kitchen — Boise, ID"
     full_only: true
     bullets:
-      - "Managed seating flow and table turnover during peak dinner rushes while coordinating between guests and servers."
+      - "Managed seating flow and table turnover during peak dinner rushes while coordinating between guests and servers"
 
   - title: "Carhop & Drive-thru Operator"
     date: "May 2018 – Aug 2018"
     org: "Sonic Drive-In — Boise, ID"
     full_only: true
     bullets:
-      - "Delivered fast, accurate service on high-volume shifts, efficiently taking orders and handling payments."
+      - "Delivered fast, accurate service on high-volume shifts, efficiently taking orders and handling payments"
