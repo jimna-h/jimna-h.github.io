@@ -86,13 +86,23 @@ experience:
     org: "BYU Office of Information Technology — Provo, UT"
     full_only: false
     bullets:
-      - "Provided technical and operational support to a network of 300+ campus record liaisons"
-      - "Developed an Excel VBA macro that cut a quarterly, week-long data-gathering and formatting process down to ~20 minutes"
-      - "Adopted a barcode scanning tool and engineered the data-formatting pipeline to integrate it with existing records systems, eliminating manual tracking errors"
-      - "Programmed a data-matching script cross-referencing monthly HR job-change reports against active liaisons, automating system update flags"
-      - "Authored SOPs and knowledge-base documentation to standardize record-handling processes"
-      - "Ran regular statistical analyses on records activity to forecast infrastructure needs"
-      - "Designed and delivered training materials for full-time inter-departmental staff"
+      # - "Provided technical and operational support to a network of 300+ campus record liaisons"
+      # - "Developed an Excel VBA macro that cut a quarterly, week-long data-gathering and formatting process down to ~20 minutes"
+      # - "Adopted a barcode scanning tool and engineered the data-formatting pipeline to integrate it with existing records systems, eliminating manual tracking errors"
+      # - "Programmed a data-matching script cross-referencing monthly HR job-change reports against active liaisons, automating system update flags"
+      # - "Authored SOPs and knowledge-base documentation to standardize record-handling processes"
+      # - "Ran regular statistical analyses on records activity to forecast infrastructure needs"
+      # - "Designed and delivered training materials for full-time inter-departmental staff"
+      - "Developed an Excel VBA macro that automated a quarterly data-gathering and formatting process, cutting a week of manual work down to ~20 minutes"
+      - "Engineered a barcode-scanning data pipeline integrated with existing records systems, eliminating manual tracking errors across over 10,000 records"
+      - "Programmed a data-matching script cross-referencing monthly HR job-change reports against 300+ active liaisons, automating update flags and reducing manual review time"
+      - "Authored SOPs and knowledge-base documentation that standardized record-handling processes, cutting onboarding and training time for liaisons and staff"
+      - "Provided technical support to a network of 300+ campus record liaisons, serving as first point of contact for records-system troubleshooting"
+
+
+
+
+      
 
   - title: "Community Support Worker"
     date: "Jun 2023 – Aug 2023"
