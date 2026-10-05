@@ -9,16 +9,21 @@
 #               out the line to show a text-only card. A ~16:10 crop looks best.
 # Order here = order on the page.
 
-- name: EDH Game and Stats Tracker
-  meta: "React · Flask · Google Sheets · Render"
+- name: Sylvan Library — EDH Game and Stats Tracker
+  meta: "React · Flask · Postgres · PWA"
   description: >-
-    A life-total and stats tracker for Commander games: live life totals,
-    commander damage per opponent, turn tracking, and a shared player/deck
-    roster synced to Google Sheets. (This link will show a live roster of
-    players, decks, and stats, but any submitted game will not take real affect.)
+    A mobile-first life and stats tracker my playgroup uses for 4-player
+    Commander games. It handles life totals, commander damage per opponent,
+    turn tracking, and grid or cross-table seating. The app installs to the
+    home screen and works fully offline: finished games queue on the device
+    and sync to a Flask and Postgres backend when the connection returns.
+    Built-in stats pages turn the game history into leaderboards, awards, and
+    per-player and per-deck breakdowns. Feel free to explore and play a game.
+    Saving to the shared stats requires the group's passcode.
   url: https://edh-tracker-seven.vercel.app/
   source: https://github.com/jimna-h/edh-tracker
   image: assets/img/edh-tracker.jpg
+
  
 - name: Barcode Scanning for Records Intake/Movement
   meta: "Process Improvement · Records Management"
